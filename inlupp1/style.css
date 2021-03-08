@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: #ddcda6ff;
+         
+}
+
+.content{
+    max-width: 70%;
+    margin: auto;
+    padding: 1em;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+}
+
+h1{
+    color: #343330ff;
+    font-family: Oswals, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2{
+    color: #7e5920ff;
+}
+
+p{
+  color:   #343330ff; 
+  font-family: 'Gill Sans', sans-serif;
+  text-align: center justify;
+}
+
+nav{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;  
+    display: block;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color:#dab966;
+    text-transform: uppercase;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav li a{
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.current-page{
+    background-color: #ddcda6ff;
+}
+
+img{
+    border-radius: 8px;
+}
+
+
+li{
+    color:  #343330ff;
+    font-family: 'Gill Sans', sans-serif;
+    text-align: left;
+}
+
+a:link{
+    color: #271f30ff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #B26E63;
+}
+
+a:hover{
+    color:#d0fcb3ff;
+}
+
+a:active{
+    color: #c8ad55ff;
+}
+
+nav a{
+    display: inline;
+    float: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(182, 144, 50);
+}
+
+
+
+/* Colour palett generated from coolors.co*/
+/* CSS HEX */
+--jet: #343330ff;
+--rifle-green: #45462aff;
+--dutch-white: #ddcda6ff;
+--brown: #7e5920ff;
+--fulvous: #dc851fff;
+
+/*länkpalett*/
+/* CSS HEX */
+--dark-purple: #271f30ff;
+--umber: #6c5a49ff;
+--vegas-gold: #c8ad55ff;
+--tea-green: #d0fcb3ff;
